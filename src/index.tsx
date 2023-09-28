@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {splitIntoWords} from "./01-hello-tests/01";
+import {User} from "./06-callbacks-onClick-onChange-onBlur/06-callbacks";
 
 const sentence = "Hello my friends!";
 const result = splitIntoWords(sentence);
@@ -16,7 +17,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <User />
   </React.StrictMode>
 );
 
